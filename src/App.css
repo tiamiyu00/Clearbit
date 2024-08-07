@@ -1,38 +1,160 @@
-.App {
+body {
+  font-family: InterVar, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+.header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  padding: 0, 3rem, 2rem, 5rem;
+  margin: 0 3rem 3rem 3rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  font-family: "Montserrat", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #273266;
+}
+li a {
+  font-style: normal;
+  line-height: 24px;
+
+  font-weight: 600;
+  font-size: 17px;
+  padding: 1.2rem;
+}
+img {
+  width: 7.8rem;
+}
+.logs {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-weight: 500;
+  font-family: InterVar, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+.login {
+  font-weight: 500;
+  color: #3f5768;
+  padding-bottom: 0.5rem;
+}
+.btn1 {
+  margin: 0.5rem 0 0 2rem;
+  width: 6rem;
+  height: 2.4rem;
+  background-color: rgb(246, 246, 246);
+  border: 3px solid #46718e;
+  border-radius: 10px;
+}
+.first {
+  margin: 5rem;
+}
+.first0 {
+  width: 30%;
+}
+h1 {
+  font-family: InterVar, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #273266;
+}
+.predict {
+  color: #19214b;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 2rem 0 3rem 0;
+}
+.btn2 {
+  padding: 1rem;
+  width: 10rem;
+  color: aliceblue;
+  background-image: linear-gradient(to right, #322cde, #87ceeb);
+  border-radius: 10px;
+  border: #322cde;
+}
+.exp {
+  color: #19214b;
+  display: flex;
+  justify-content: center;
+}
+.lil {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+}
+.lil li {
+  font-weight: 600;
+  color: #273266;
+}
+.third {
+  display: flex;
+  justify-content: center;
+}
+.thrd {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.thrd h2 {
+  margin: 0 5rem 0 8rem;
+  font-size: 2rem;
+  color: #19214b;
+}
+.press {
+  display: table;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.press p {
+  margin: 1rem 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.percentage {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+p {
+  color: #19214b;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.btn3 {
+  padding: 1rem;
+  width: 11rem;
+  color: aliceblue;
+  background-image: linear-gradient(to right, #322cde, #87ceeb);
+  border-radius: 10px;
+  border: #322cde;
+}
+.kik {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
